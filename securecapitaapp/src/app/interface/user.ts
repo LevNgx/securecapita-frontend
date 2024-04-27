@@ -5,9 +5,9 @@ export interface User {
     phone?: string;
     address?: string;
     email: string;
-    enabled: boolean;
-    nonLocked: boolean;
-    mfaEnabled: boolean;
+    enabled?: boolean;
+    nonLocked?: boolean;
+    mfaEnabled?: boolean;
     createdOn?: Date;
     imageUrl?: string;
     title?: string ;

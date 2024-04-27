@@ -26,6 +26,6 @@ export interface Profile {
     user?: User;
     events?: Events[];
     roles?: Role[];
-    access_token: string;
-    refresh_token: string;
+    access_token?: string;
+    refresh_token?: string;
 }
